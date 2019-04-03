@@ -11,7 +11,7 @@ output_array = model.predict(input_array)
 - Explain the mathematics formula of tensorflow.nn.softmax_cross_entropy_with_logits.
   - What is the "keras" way for tensorflow.nn.softmax_cross_entropy_with_logits"
 - Explain keras.losses.binary_crossentropy?
-- Explain the mathematics formula of SimpleRNN, LSTM, ...?
+- Explain the mathematics formula of SimpleRNN, LSTM, ...? Compute the number of parameters with given units, and input_shape.
 
 # Math
 - We use a Markov Chain to generate sentence. When do we know the sentence will end? Will it runs forever?
