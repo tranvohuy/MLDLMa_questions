@@ -32,3 +32,4 @@ preds = [0. .1 .3 .4 .2 .3]
 for temperature in [0.01 0.1 10]:
   print(sample(preds,temperature))
 ```
+- Given a bunch of points in the plane. How do you know that they come from a Gaussian process, or a Possion point process?
