@@ -48,6 +48,7 @@ for temperature in [0.01 0.1 10]:
  Questions: 
   - How do we pick initial points? We want them to spread out.
   - When do we stop? Either a fixed number of steps, or nothing new happens.
+  - How many groups do we want? That is, what is the value of $k$?
   
 - Gaussian mixture-models?:
   - We assume that points follow a mixture-Gaussian with some parameters. That is there exists k positive numbers $(p_1,...,p_k)$ with sum =1, and $k$ different Gaussians (of $d$-dimension) $N(\mu_i,\sigma_i)$.
