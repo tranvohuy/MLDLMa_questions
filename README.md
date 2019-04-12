@@ -33,3 +33,22 @@ for temperature in [0.01 0.1 10]:
   print(sample(preds,temperature))
 ```
 - Given a bunch of points in the plane. How do you know that they come from a Gaussian process, or a Possion point process?
+
+
+
+* Methods for unsupervised-learning
+
+- k-mean: given a set of points (in the space), and an positive integer $k$. We want to decompose points into $k$ sets. Assumption: if two points are close, they have some 'relation'. Therefore, we should group points such that points in a group are close together. What is the method?
+ - Pick $k$ random points. Think these are "centered", average masses $m_i$. Run through points in the set, and see if points are closest to which masses. Declare that the points belong to corresponding groups. 
+ - Recompute the average masses of each group.
+ - Run through points in the set, reassign groups again.
+ - Repeat, until "nothing new"
+ 
+ Questions: 
+  - How do we pick initial points? We want them to spread out.
+  - When do we stop? Either a fixed number of steps, or nothing new happens.
+  
+- Gaussian mixture-models?:
+  - We assume that points follow a mixture-Gaussian with some parameters. 
+  - We have to approximate these parameters.
+  
