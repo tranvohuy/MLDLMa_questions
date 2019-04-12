@@ -1,3 +1,4 @@
+(random notes)
 # KERAS
 - What's wrong with the following code
 ```
@@ -36,7 +37,7 @@ for temperature in [0.01 0.1 10]:
 
 
 
-* Methods for unsupervised-learning
+# Methods for unsupervised-learning
 
 - k-mean: given a set of points (in the space), and an positive integer $k$. We want to decompose points into $k$ sets. Assumption: if two points are close, they have some 'relation'. Therefore, we should group points such that points in a group are close together. What is the method?
  - Pick $k$ random points. Think these are "centered", average masses $m_i$. Run through points in the set, and see if points are closest to which masses. Declare that the points belong to corresponding groups. 
@@ -49,6 +50,10 @@ for temperature in [0.01 0.1 10]:
   - When do we stop? Either a fixed number of steps, or nothing new happens.
   
 - Gaussian mixture-models?:
-  - We assume that points follow a mixture-Gaussian with some parameters. 
-  - We have to approximate these parameters.
+  - We assume that points follow a mixture-Gaussian with some parameters. That is there exists k positive numbers $(p_1,...,p_k)$ with sum =1, and $k$ different Gaussians (of $d$-dimension) $N(\mu_i,\sigma_i)$.
+    - Each points is a result of the following. Pick a Gaussian according to probabilities $(p_i)$. The sample that Gaussian.
+    - Simulation shows that if a point chose by $i-th$ Gaussian, that point is very close to $\mu_i$.
+  - Our job is to figure out $(p_i), (\mu_i), (\sigma_i)$, and to figure out each point is sampled according to which Gaussian.
+  - See the algorithm here https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm
+  
   
