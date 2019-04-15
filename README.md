@@ -56,5 +56,8 @@ for temperature in [0.01 0.1 10]:
     - Simulation shows that if a point chose by $i-th$ Gaussian, that point is very close to $\mu_i$.
   - Our job is to figure out $(p_i), (\mu_i), (\sigma_i)$, and to figure out each point is sampled according to which Gaussian.
   - See the algorithm here https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm
+  - The main principle of the method is that: choose the parameters such that the (conditional) density (given parameters) is largest.
+  - Use Bayes' rule to write down the conditional density.
+  - It turns out that compute logarithmic of density is better.
   
   
