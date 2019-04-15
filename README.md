@@ -59,5 +59,7 @@ for temperature in [0.01 0.1 10]:
   - The main principle of the method is that: choose the parameters such that the (conditional) density (given parameters) is largest.
   - Use Bayes' rule to write down the conditional density.
   - It turns out that compute logarithmic of density is better.
+  - Why Gaussian? Why not Poisson, etc?
+  
   
   
