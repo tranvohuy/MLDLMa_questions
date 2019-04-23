@@ -62,4 +62,15 @@ for temperature in [0.01 0.1 10]:
   - Why Gaussian? Why not Poisson, etc?
   
   
+ #Python
+ - Mutable/Immutable: [link1](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a), [link2](https://towardsdatascience.com/python-basics-for-data-science-6a6c987f2755)
+ ```
+  x='testyou'
+  y='testyou'
+  print(id(x), id(y))
+  
+  x='I you'
+  y = 'I you'
+  print(id(x), id(y))
+```
   
