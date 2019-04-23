@@ -73,4 +73,4 @@ for temperature in [0.01 0.1 10]:
   y = 'I you'
   print(id(x), id(y))
 ```
-  
+ - Iterable: [link1](https://towardsdatascience.com/python-basics-iteration-and-looping-6ca63b30835c)
