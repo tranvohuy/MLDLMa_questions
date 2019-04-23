@@ -63,7 +63,7 @@ for temperature in [0.01 0.1 10]:
   
   
  #Python
- - Mutable/Immutable: [link1](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a), [link2](https://towardsdatascience.com/python-basics-for-data-science-6a6c987f2755)
+ - Mutable/Immutable: [link1](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a), [link2](https://towardsdatascience.com/python-basics-for-data-science-6a6c987f2755), [link3](https://www.python-course.eu/variables.php)
  ```
   x='testyou'
   y='testyou'
