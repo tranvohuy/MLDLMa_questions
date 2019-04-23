@@ -77,4 +77,4 @@ for temperature in [0.01 0.1 10]:
    - zip, enumerate, map, filter
    - string, list, tuple
    - set, dict, file object
-   - yield, __next__(),__iter__(), __getitem__()
+   - yield, `__next__()`,`__iter__()`, `__getitem__()`, `__length__()__`
