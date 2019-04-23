@@ -73,4 +73,8 @@ for temperature in [0.01 0.1 10]:
   y = 'I you'
   print(id(x), id(y))
 ```
- - Iterable: [link1](https://towardsdatascience.com/python-basics-iteration-and-looping-6ca63b30835c)
+ - Iterable / iterator: [link1](https://towardsdatascience.com/python-basics-iteration-and-looping-6ca63b30835c)
+  - zip, enumerate, map, filter
+  - string, list, tuple
+  - set, dict, file object
+  - yield, __next__(),__iter__(), __getitem__()
