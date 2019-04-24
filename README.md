@@ -78,3 +78,5 @@ for temperature in [0.01 0.1 10]:
    - string, list, tuple
    - set, dict, file object
    - yield, `__next__()`,`__iter__()`, `__getitem__()`, `__length__()`
+ - What is generator?
+ - What is decorator?
