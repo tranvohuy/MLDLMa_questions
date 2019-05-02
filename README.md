@@ -40,10 +40,10 @@ for temperature in [0.01 0.1 10]:
 # Methods for unsupervised-learning
 
 - k-mean: given a set of points (in the space), and an positive integer $k$. We want to decompose points into $k$ sets. Assumption: if two points are close, they have some 'relation'. Therefore, we should group points such that points in a group are close together. What is the method?
- - Pick $k$ random points. Think these are "centered", average masses $m_i$. Run through points in the set, and see if points are closest to which masses. Declare that the points belong to corresponding groups. 
- - Recompute the average masses of each group.
- - Run through points in the set, reassign groups again.
- - Repeat, until "nothing new"
+  - Pick $k$ random points. Think these are "centered", average masses $m_i$. Run through points in the set, and see if points are closest to which masses. Declare that the points belong to corresponding groups. 
+  - Recompute the average masses of each group.
+  - Run through points in the set, reassign groups again.
+  - Repeat, until "nothing new"
  
  Questions: 
   - How do we pick initial points? We want them to spread out.
